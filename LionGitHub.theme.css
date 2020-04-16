@@ -1,0 +1,33 @@
+//META{"name":"Lion GitHub","description":"Kotonier","author":"Spectrax modify by Kotonier","version":"1.0"}*//
+
+
+@import url(https://raw.githubusercontent.com/Kotonier/Template/master/TemplateThemeD.css)
+
+@import url(https://raw.githubusercontent.com/Kotonier/Template/master/combinedcss.css)
+
+
+
+
+
+:root {
+  --backgroundColor: #120000;                                              /*Couleur a dessus de l'image*/
+  --backgroundImage: url('https://i.imgur.com/QX5iH1b.jpg');             /* Remplacer par un lien image pour le fond d'écran */
+  --backgroundImageOpacity: .7;                                           /* ajuster par rapport au fond d'écran la luminosité */
+  --HomeIcon: url('https://i.imgur.com/Qu1VobC.png');                      /* icone en haut a gauche du discord en fichier image, l'appli discord doit etre en anglais*/
+  --discordName : url('https://i.imgur.com/g7UJ5GE.png');                  /* remplace le Discord tout en haut a gauche rechercher discordName pour changer l'emplacement et réduire la taille */
+  --uiGradient1: #e07204;
+  --uiGradient2: #f70800;                                                  /* gradient 1&2 servent à avoir un gradient de couleur de la couleur 1 à 2 mettre la meme couleur si l'on veut pas de gradient*/
+  --textNormal: #fffafa;                                                   /* couleur d'affichage du texte */
+  --textMuted: #72767d;
+  --textLinks: red;                                                        /* couleur des liens */
+  --channelsDefault: #fffafa;                                              /* couleur des chans par défault */
+  --channelsNormal: #fffafa;                                               /* couleur des chans */
+  --channelsHover: #778899;                                                /* couleur des chans sous le curseur */
+  --channelsActive: #ffa500;                                               /* couleur du chan actif /que l'ont voit */
+  --channelsMuted: #778899;                                                /* couleur chan muté */
+  --succes: #17e81d;
+  --error: #f30c0c;
+  --warning: #e7a418;
+  --FolderIconClose: url('https://i.imgur.com/xOcFSGS.png');                    /* changer l'icone fichier fermé*/
+  --FolderIconOpen: url('https://i.imgur.com/HB3eSYZ.png');
+  }
